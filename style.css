@@ -232,17 +232,6 @@
     box-shadow: 0 6px 10px -1px rgba(126, 34, 206, 0.5);
   }
   
-  .secondary-cta {
-    border: 2px solid #7e22ce;
-    color: #a855f7;
-    background-color: transparent;
-  }
-  
-  .secondary-cta:hover {
-    background-color: rgba(126, 34, 206, 0.1);
-    transform: translateY(-2px);
-  }
-  
  
   section {
     padding: 5rem 2rem;
@@ -363,7 +352,7 @@
   
   .skill-item {
     background-color: rgba(126, 34, 206, 0.2);
-    color: #c4b5fd;
+    color: white;
     padding: 0.5rem 1rem;
     border-radius: 9999px;
     font-size: 0.875rem;
