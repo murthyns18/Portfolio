@@ -1,2 +1,25 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+Projects
+
+E-Commerce Web Application [GitHub Link]
+Technologies: Java, JavaScript, Spring Boot, Hibernate, JSP, MySQL, JPA, HTML, CSS, MVC Pattern
+
+Developed a full-stack e-commerce platform using Spring Boot, Hibernate, JSP, and MySQL.
+Enabled product browsing, cart management, order tracking, and user feedback.
+Implemented admin functionalities for managing products, applying discounts, processing orders, and shipping.
+Integrated email notifications for customer registration, order placement, and shipping updates, improving user engagement.
+
+Online Food Delivery Application [GitHub Link]
+Technologies: Java, JavaScript, JDBC, JSP, Servlets, HTML, CSS, MySQL, DAO Pattern
+
+Designed and developed a food delivery platform for restaurant and menu management.
+Implemented features for browsing restaurants, filtering menu items, cart management, and order tracking.
+Integrated secure order placement and payment simulation for testing user transactions.
+Enhanced customer experience with a user-friendly interface and real-time order status tracking.
+
+Employee Management System [GitHub Link]
+Technologies: Spring Boot, Hibernate, JSP, MySQL, JPA, Maven, MVC Pattern
+
+Developed a CRUD-based Employee Management System using Spring Boot and Hibernate.
+Implemented features to add, update, delete, and view employee records efficiently.
+Utilized JPA and MySQL to store and manage employee data securely.
+Designed an interactive dashboard for easy employee management by HR/admins.
