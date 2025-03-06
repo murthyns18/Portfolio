@@ -352,7 +352,7 @@
   
   .skill-item {
     background-color: rgba(126, 34, 206, 0.2);
-    color: white;
+    color: aqua;
     padding: 0.5rem 1rem;
     border-radius: 9999px;
     font-size: 0.875rem;
@@ -407,68 +407,89 @@
   
    
   .cert-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    display: flex;  
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 2rem; 
     margin-bottom: 3rem;
-  }
-  
-  .cert-card {
+    max-width: 1200px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cert-card {
     background-color: #000000;
     border: 1px solid rgba(139, 92, 246, 0.3);
+    width: 320px;
     border-radius: 0.75rem;
     padding: 1.5rem;
-    transition: all 0.3s;
+    transition: all 0.3s ease-in-out;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  }
-  
-  .cert-card:hover {
+    text-align: center; 
+}
+
+.cert-card img {
+    width: 100%;  
+    height: auto; 
+    border-radius: 0.5rem;  
+    object-fit: cover; 
+}
+
+.cert-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 15px -3px rgba(139, 92, 246, 0.3);
-  }
-  
-  .cert-card h3 {
+}
+
+.cert-card h3 {
     font-size: 1.25rem;
     color: #a855f7;
     margin-bottom: 0.5rem;
-  }
-  
-  .cert-issuer {
+}
+
+.cert-issuer {
     color: #94a3b8;
     font-size: 0.875rem;
     margin-bottom: 0.75rem;
-  }
-  
-  .extra-activities {
+}
+
+.cert-card a {
+    font-weight: bold;
+    color: aqua;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.cert-card a:hover {
+    color: #a855f7; 
+}
+
+.extra-activities {
     background-color: #000000;
     border: 1px solid rgba(139, 92, 246, 0.3);
     border-radius: 0.75rem;
     padding: 1.5rem;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  }
-  
-  .extra-activities h2 {
+    margin-top: 3rem;
+}
+
+.extra-activities h2 {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     text-align: left;
-    transform: none;
-    left: 0;
-  }
-  
-  .extra-activities h2::after {
-    left: 0;
-    transform: none;
-  }
-  
-  .extra-activities ul {
+}
+
+.extra-activities ul {
     list-style: disc;
     padding-left: 1.5rem;
-  }
-  
-  .extra-activities li {
+}
+
+.extra-activities li {
     margin-bottom: 0.75rem;
     color: #cbd5e1;
-  }
+}
+
   
  
   .contact-container {
