@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+  <rect width="200" height="50" rx="8" fill="#0f1713"/>
+  <circle cx="28" cy="25" r="14" fill="#3b82f6" opacity="0.2"/>
+  <path d="M28 14C22 14 17 19 17 25C17 31 22 36 28 36C33 36 37 32 38 28H31C30 30 28 31 26 30C23 29 22 26 23 24C24 21 27 20 30 21C31.5 21.5 32.5 22.5 33 24H38C37 18 33 14 28 14Z" fill="#3b82f6"/>
+  <text x="50" y="31" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#ffffff">Cloud <tspan fill="#60a5fa">Odyssey</tspan></text>
+</svg>
