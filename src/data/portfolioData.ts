@@ -9,6 +9,8 @@ import {
   ExtraActivity
 } from '../types/portfolio';
 
+const getAssetPath = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`;
+
 export const personalInfo: PersonalInfo = {
   name: "Narasimhamurthy N S",
   initials: "NS",
@@ -23,8 +25,8 @@ export const personalInfo: PersonalInfo = {
   phone: "+91 63612 06328",
   altPhone: "+91 8431054518",
   status: "Software Engineer",
-  resumePath: "/murthyns.pdf",
-  profileImage: "/murthy.jpg",
+  resumePath: getAssetPath("/murthyns.pdf"),
+  profileImage: getAssetPath("/murthy.jpg"),
   socialLinks: {
     github: "https://github.com/murthyns18",
     linkedin: "https://linkedin.com/in/murthyns18",
@@ -46,7 +48,7 @@ export const workExperienceData: WorkExperience[] = [
     role: "Software Engineer",
     company: "Talentpace Pvt Ltd",
     companyLinkedin: "https://www.linkedin.com/company/talent-pace-pvt-ltd",
-    companyLogo: "/talent_pace_pvt_ltd_logo.jpg",
+    companyLogo: getAssetPath("/talent_pace_pvt_ltd_logo.jpg"),
     type: "Full-time",
     period: "Nov 2025 - Present",
     duration: "10 mos",
@@ -59,7 +61,7 @@ export const workExperienceData: WorkExperience[] = [
     role: "SFCC B2C Developer Trainee",
     company: "Cloud Odyssey",
     companyLinkedin: "https://www.linkedin.com/company/cloudodysseyofficial",
-    companyLogo: "/cloudodysseyofficial_logo.jpg",
+    companyLogo: getAssetPath("/cloudodysseyofficial_logo.jpg"),
     type: "Trainee",
     period: "Jul 2025 - Oct 2025",
     duration: "4 mos",
@@ -96,7 +98,7 @@ export const projectsData: Project[] = [
     accentColor: "#00e676",
     badgeIcon: "Target",
     github: "https://github.com/murthyns18",
-    image: "/dev.png",
+    image: getAssetPath("/dev.png"),
     featured: true
   },
   {
@@ -108,7 +110,7 @@ export const projectsData: Project[] = [
     accentColor: "#a855f7",
     badgeIcon: "Workflow",
     github: "https://github.com/murthyns18",
-    image: "/dev.png",
+    image: getAssetPath("/dev.png"),
     featured: true
   },
   {
@@ -120,7 +122,7 @@ export const projectsData: Project[] = [
     accentColor: "#3b82f6",
     badgeIcon: "BarChart3",
     github: "https://github.com/murthyns18",
-    image: "/dev.png",
+    image: getAssetPath("/dev.png"),
     featured: true
   },
   {
@@ -132,7 +134,7 @@ export const projectsData: Project[] = [
     accentColor: "#f97316",
     badgeIcon: "Utensils",
     github: "https://github.com/murthyns18/FoodDelivery-Application.git",
-    image: "/food.png",
+    image: getAssetPath("/food.png"),
     featured: false
   },
   {
@@ -144,7 +146,7 @@ export const projectsData: Project[] = [
     accentColor: "#10b981",
     badgeIcon: "ShoppingBag",
     github: "https://github.com/murthyns18/E-Commerce-Web-Application-Using-SpringBoot-Hibernate-JSP-Java-MySQL.git",
-    image: "/ecommerce.png",
+    image: getAssetPath("/ecommerce.png"),
     featured: false
   },
   {
@@ -156,7 +158,7 @@ export const projectsData: Project[] = [
     accentColor: "#06b6d4",
     badgeIcon: "Users",
     github: "https://github.com/murthyns18/Employee-Management-System.git",
-    image: "/employee.png",
+    image: getAssetPath("/employee.png"),
     featured: false
   },
   {
@@ -168,7 +170,7 @@ export const projectsData: Project[] = [
     accentColor: "#00e676",
     badgeIcon: "Globe",
     github: "https://github.com/murthyns18/Portfolio.git",
-    image: "/portfolio.png",
+    image: getAssetPath("/portfolio.png"),
     featured: false
   }
 ];
