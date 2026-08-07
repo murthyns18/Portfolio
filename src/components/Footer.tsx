@@ -27,7 +27,7 @@ export default function Footer() {
         }}
       >
         <p style={{ color: '#94a3b8', fontSize: '0.9rem' }}>
-          © 2025 {personalInfo.name}. All rights reserved.
+          © 2026 {personalInfo.name}. All rights reserved.
         </p>
 
         <button
